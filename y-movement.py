@@ -8,7 +8,7 @@ L = 1.0        # Length of the pendulum (m)
 m = 1.0        # Mass of the pendulum (kg)
 g = 9.81       # Gravitational acceleration (m/s^2)
 A = 0.5        # Amplitude of the pivot's oscillation (m)
-omega = 90.0   # Frequency of the pivot's oscillation (rad/s)
+omega = 20.0   # Frequency of the pivot's oscillation (rad/s)
 time_step = 0.01  # Time step for simulation (s)
 total_time = 10.0  # Total time for simulation (s)
 

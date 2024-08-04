@@ -4,19 +4,19 @@ from mpl_toolkits.mplot3d import Axes3D
 from matplotlib.animation import FuncAnimation
 
 # Settings: Choose the starting angles for the pendulum
-theta_0 = np.pi #np.pi / 4  # Initial angle in radians (e.g., np.pi/4 for 45 degrees)
-phi_0 = 0#np.pi / 6    # Initial angle in radians (e.g., np.pi/6 for 30 degrees)
+theta_0 = np.pi / 4  # Initial angle in radians (e.g., np.pi/4 for 45 degrees)
+phi_0 = np.pi / 6    # Initial angle in radians (e.g., np.pi/6 for 30 degrees)
 
 # Define the parameters for Kapitza's pendulum
 L = 1.0        # Length of the pendulum (m)
 m = 1.0        # Mass of the pendulum (kg)
 g = 9.81       # Gravitational acceleration (m/s^2)
-Ax = 0       # Amplitude of the pivot's oscillation in the x-axis (m)
+Ax = 0.2       # Amplitude of the pivot's oscillation in the x-axis (m)
 Ay = 0.5       # Amplitude of the pivot's oscillation in the y-axis (m)
-Az = 0      # Amplitude of the pivot's oscillation in the z-axis (m)
-omegax = 0#15.0  # Frequency of the pivot's oscillation in the x-axis (rad/s)
+Az = 0.3       # Amplitude of the pivot's oscillation in the z-axis (m)
+omegax = 15.0  # Frequency of the pivot's oscillation in the x-axis (rad/s)
 omegay = 20.0  # Frequency of the pivot's oscillation in the y-axis (rad/s)
-omegaz = 0#10.0  # Frequency of the pivot's oscillation in the z-axis (rad/s)
+omegaz = 10.0  # Frequency of the pivot's oscillation in the z-axis (rad/s)
 time_step = 0.01  # Time step for simulation (s)
 total_time = 10.0  # Total time for simulation (s)
 
